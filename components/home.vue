@@ -1,0 +1,19 @@
+<template>
+  <z-view>
+    This screen was zirclelized!
+    <z-spot
+      slot="extension"
+      :angle="145"
+      to-view="bar1"
+    >
+      Bar1
+    </z-spot>
+    <z-spot
+      slot="extension"
+      :angle="45"
+      to-view="bar2"
+    >
+      Bar2
+    </z-spot>
+  </z-view>
+</template>
